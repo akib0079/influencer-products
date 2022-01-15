@@ -32,7 +32,7 @@ p{
 nav{
     max-width: 1340px;
     margin: 0 auto;
-    padding: 30px 10px 0 10px;
+    padding: 50px 20px 0 20px;
     max-height: 80px;
     position: sticky;
 }
@@ -102,7 +102,7 @@ nav{
 .search{
     width: 28px;
     height: 28px;
-    margin-right: 25px !important;
+    margin-right: 35px !important;
 }
 
 .cart{
@@ -112,3 +112,82 @@ nav{
 }
 
 /* Header/nav css end here */
+
+/* Hero section start here */
+
+.hero{
+    padding: 40px 0px;
+}
+
+.heroInfo h1{
+    font-size: 52px;
+}
+
+.heroInfo p{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.primaryButton{
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-size: 16px;
+    border: none;
+    margin: 20px 0px;
+    background-color: var(--main-color);
+    color: white;
+    overflow: hidden;
+}
+
+.primaryButton a{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    font-weight: 600;
+    font-family: 'Poppins';
+    letter-spacing: 1px;
+}
+
+.primaryButton:hover{
+    background-color: #be225b;
+    cursor: pointer;
+}
+
+.primaryButton:hover i{
+    transform: translateX(20%);
+    transition: transform 0.3s ease-in;
+}
+
+.arrow{
+    font-size: 24px;
+    vertical-align: middle;
+}
+
+
+.heroImage{
+    margin-left: auto;
+    animation: floating-animation 3s ease-in-out infinite;
+}
+
+.heroImage img{
+    max-width: 500px;
+    margin: 20px 0px;
+}
+
+/* custom animation */
+@keyframes floating-animation {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-15px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+
+
+
+

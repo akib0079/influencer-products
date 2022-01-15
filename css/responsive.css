@@ -1,0 +1,251 @@
+/* Template css */
+
+/* Responsive Css File */
+
+.container{
+    max-width: 1340px;
+    margin: 0 auto;
+    padding: 0px 20px 0 20px;
+}
+
+.container-fluid{
+    width: 100%;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.oneColumn{
+    width: 100%;
+    display: flex;
+}
+
+.twoColumn{
+    width: 50%;
+    display: flex;
+
+}
+
+.threeColumn{
+    width: 33.3333333333%;
+    display: flex;
+
+}
+
+.fourColumn{
+    width: 25%;
+    display: flex;
+
+}
+
+.fiveColumn{
+    width: 20%;
+    display: flex;
+
+}
+
+.sixColumn{
+    width: 16.6666666667%;
+    display: flex;
+
+}
+
+
+
+.center{
+    margin: 0 auto;
+    display: block;
+}
+
+.imageFluid{
+    width: 100%;
+}
+
+
+.vertical-align-center{
+    align-items: center;
+}
+
+.vertical-align-top{
+    align-items: top;
+}
+
+.vertical-align-bottom{
+    align-items: end;
+}
+
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    .heroImage img {
+        max-width: 360px;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    .heroImage img {
+        max-width: 360px;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .oneColumn{
+        width: 100%;
+        display: flex;
+    }
+    
+    .twoColumn{
+        width: 100%;
+        display: flex;
+    
+    }
+    
+    .threeColumn{
+        width: 100%;
+        display: flex;
+    
+    }
+    
+    .fourColumn{
+        width: 100%;
+        display: flex;
+    
+    }
+    
+    .fiveColumn{
+        width: 100%;
+        display: flex;
+    
+    }
+    
+    .sixColumn{
+        width: 100%;
+        display: flex;
+    
+    }
+
+    
+    img {
+       width: 100%;
+    }
+
+
+    .menu ul {
+        align-items: center;
+        justify-content: end;
+        flex-wrap: wrap;
+        display: none;
+    }
+
+    .heroImage{
+        margin: 0 auto;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (max-width: 480px) {
+    
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .oneColumn{
+        width: 100%;
+        display: flex;
+    }
+    
+    .twoColumn{
+        width: 100%;
+        display: flex;
+    
+    }
+    
+    .threeColumn{
+        width: 100%;
+        display: flex;
+    
+    }
+    
+    .fourColumn{
+        width: 100%;
+        display: flex;
+    
+    }
+    
+    .fiveColumn{
+        width: 100%;
+        display: flex;
+    
+    }
+    
+    .sixColumn{
+        width: 100%;
+        display: flex;
+    
+    }
+
+    
+    img {
+       width: 100%;
+    }
+
+
+    .menu ul {
+        align-items: center;
+        justify-content: end;
+        flex-wrap: wrap;
+        display: none;
+    }
+
+    .search{
+        display: none;
+    }
+
+
+    nav {
+        max-width: 1340px;
+        margin: 0 auto;
+        padding: 20px 10px 20px 10px;
+        max-height: 80px;
+        position: sticky;
+    }
+
+    .heroImage{
+        margin: 0 auto;
+    }
+    
+  }
