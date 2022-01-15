@@ -247,5 +247,17 @@
     .heroImage{
         margin: 0 auto;
     }
+
+    .clientLogos{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        gap: 30px;
+        max-width: 1180px;
+        margin: 0 auto;
+        padding: 30px 20px;
+        border-top: 3px solid #c0ccda36;
+        border-bottom: 3px solid #c0ccda36;
+    }
     
   }
