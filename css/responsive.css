@@ -218,13 +218,55 @@
         position: sticky;
     }
 
-    .heroImage{
-        margin: 0 auto;
+    .heroImage {
+        margin: auto;
+        animation: floating-animation 3s ease-in-out infinite;
+    }
+
+    .numberInner h5 {
+        font-size: 16px;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .hero {
+        padding: 0px 0px;
+        margin-bottom: 30px;
+    }
+    
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .numbers {
+        display: flex;
+        max-width: 100%;
+        margin-top: 20px;
+    }
+
+    .callToActionsection {
+        padding: 49px 0px;
+        background-color: #f4f4f4;
+    }
+
+    .callToActionInner h2 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .heroImage img {
+        width: 250px;
+    
     }
 
     .clientLogos{
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(3,1fr);
         align-items: center;
         gap: 30px;
         max-width: 1180px;
@@ -239,8 +281,28 @@
         grid-template-columns: repeat(1, 1fr);
         gap: 28px 28px;
     }
-    .lstbox{
-        display: none;
+
+    .heroInfo h1 {
+        font-size: 29px;
+        text-align: center;
+    }
+    
+    .heroInfo p {
+        font-size: 14px;
+        font-weight: 500;
+        margin: 10px 0px;
+        text-align: center;
+    }
+
+    .heroInfo{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        order: 2;
+    }
+    .herorow{
+        flex-direction: column-reverse;
     }
     
   }
@@ -319,13 +381,55 @@
         position: sticky;
     }
 
-    .heroImage{
-        margin: 0 auto;
+    .heroImage {
+        margin: auto;
+        animation: floating-animation 3s ease-in-out infinite;
+    }
+
+    .numberInner h5 {
+        font-size: 16px;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .hero {
+        padding: 0px 0px;
+        margin-bottom: 30px;
+    }
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .numbers {
+        display: flex;
+        max-width: 100%;
+        margin-top: 20px;
+    }
+
+    .callToActionsection {
+        padding: 49px 0px;
+        background-color: #f4f4f4;
+    }
+
+    .callToActionInner h2 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .heroImage img {
+        width: 250px;
+    
     }
 
     .clientLogos{
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(3,1fr);
         align-items: center;
         gap: 30px;
         max-width: 1180px;
@@ -339,6 +443,30 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 28px 28px;
+    }
+
+    .heroInfo h1 {
+        font-size: 29px;
+        text-align: center;
+    }
+    
+    .heroInfo p {
+        font-size: 14px;
+        font-weight: 500;
+        margin: 10px 0px;
+        text-align: center;
+    }
+
+    .heroInfo {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        order: 2;
+        margin-top: -27px;
+    }
+    .herorow{
+        flex-direction: column-reverse;
     }
     
   }
